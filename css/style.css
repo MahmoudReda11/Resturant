@@ -21,6 +21,10 @@ html{
     --font-Kaushan : 'Kaushan Script', cursive;    
     --font-Great :'Great Vibes', cursive;
 }
+*::selection{
+    background: var(--d-yellow);
+    color: #fff;
+}
 span{
     color: #c59d5f;
     font-family: var(--font-Great);
